@@ -1,0 +1,139 @@
+img.img2x2{
+	position: absolute;
+	top: 30px;
+	right: 170px;
+	height: 2in;
+	width: 2in;
+}
+h1.txtName{
+	position: absolute;
+	top: 32px;
+	left: 150px;
+	font-size: 39px;
+	font-family: tahoma;
+}
+p.txtHeader{
+	position: relative;
+	top: 100px;
+	left: 150px;
+	font-size: 18px;
+	font-family: arial;
+}
+div.txtFLine hr{
+	position: relative;
+	top: 110px;
+	border: solid;
+	margin-left: 150px;
+	margin-right: 150px;
+	border-width: 2px;
+}
+p.txtObjectives{
+	position: relative;
+	top: 110px;
+	left: 150px;
+	font-size: 28px;
+}
+p.txtObjectivesContent{
+	position: relative;
+	top: 110px;
+	left: 150px;
+	font-size: 20.6px;
+}
+p.txtInfo{
+	position: relative;
+	top: 130px;
+	left: 150px;
+	font-size: 28px;
+}
+p.txtInfoContent{
+	position: relative;
+	top: 130px;
+	left: 200px;
+	font-size: 18px;
+}
+div.txtSLine hr{
+	position: relative;
+	top: 130px;
+	border: solid;
+	margin-left: 150px;
+	margin-right: 150px;
+	border-width: 2px;
+}
+p.txtEducBack{
+	position: relative;
+	top: 110px;
+	left: 150px;
+	font-size: 28px;
+}
+p.txtEducBackContent{
+	position: relative;
+	top: 110px;
+	left: 200px;
+	font-size: 18px;
+}
+p.txtEducBackContentSub{
+	position: relative;
+	top: 110px;
+	left: 295px;
+	font-size: 18px;
+}
+div.txtTLine hr{
+	position: relative;
+	top: 130px;
+	border: solid;
+	margin-left: 150px;
+	margin-right: 150px;
+	border-width: 2px;
+}
+p.txtSkills{
+	position: relative;
+	top: 110px;
+	left: 150px;
+	font-size: 28px;
+}
+p.txtSkillsContent{
+	position: relative;
+	top: 110px;
+	left: 200px;
+	font-size: 18px;
+}
+div.txtFLine hr{
+	position: relative;
+	top: 130px;
+	border: solid;
+	margin-left: 150px;
+	margin-right: 150px;
+	border-width: 2px;
+}
+p.txtRef{
+	position: relative;
+	top: 110px;
+	left: 150px;
+	font-size: 28px;
+}
+p.txtRefContent{
+	position: relative;
+	top: 110px;
+	left: 200px;
+	font-size: 18px;
+}
+div.txtFifthLine hr{
+	position: relative;
+	top: 130px;
+	border: solid;
+	margin-left: 150px;
+	margin-right: 150px;
+	border-width: 2px;
+}
+p.txtCertify{
+	position: relative;
+	top: 120px;
+	left: 200px;
+	font-size: 22px;
+}
+p.txtSign{
+	position: relative;
+	top: 200px;
+	left: 200px;
+	font-size: 18px;
+}

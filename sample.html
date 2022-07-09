@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CIRCLE</title>
+</head>
+<body>
+
+<h1>CIRCLE CHANGE</h1>
+<div id="box" class="circle"></div>
+<br/>
+
+<button onclick="change_color()">change</button>
+</body>
+<script type="text/javascript">
+	var tmp=0, color_name="";
+	function change_color() {
+		tmp++;
+		color_name+="\n"+'<div id="' + width +'" class="boxY"></div>';
+		document.getElementById('box').style.background=colors(tmp);
+		console.log();
+	}
+	function change_color()
+	{
+		switch(tmp){
+			case 1: color="red";break;
+			case 2: color="pink";break;
+			case 3: color="green";break;
+			case 4: color="yellow";break;
+			case 5: color="blue";break;
+			case 6: color="violet";break;
+			default:color="white";break;
+		}
+		if(tmp>=6){
+			tmp=0;
+		}
+		return color_name;
+	}
+</script>
+<style type="text/css">
+.circle{
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+	margin: 10px;
+	border: solid;
+	
+}
+
+</style>
+</html>

@@ -1,0 +1,82 @@
+body{
+	background: grey;
+}
+.boxY{
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+	margin: 10px;
+	border: solid;
+	float: left;
+	display: inline-block;
+	clear: left;
+}
+.boxX{
+	height: 100px;
+	width: 100px;
+	margin: 10px;
+	border: solid;
+	float: left;
+}
+#BoxGen{
+	font-size:30px;
+	text-align: center;
+	font-weight: bold;
+}
+#txtHeight{
+	font-size: 20px;
+	font-family: calibri;
+	position: absolute;
+	top: 60px;
+	left: 380px;
+}
+#cboFNum{
+	position: absolute;
+	top: 84px;
+	left: 440px;
+}
+#txtWidth{
+	font-size: 20px;
+	font-family: calibri;
+	position: absolute;
+	top: 60px;
+	right: 400px;
+}
+#cboSNum{
+	position: absolute;
+	top: 84px;
+	right: 300px;
+}
+#box1{
+	
+height: 100px;
+background: black;
+border-radius: 50%;
+}
+#box2{
+	background: #52a9cb;
+}
+#box3{
+	background: #6b9a1c;
+}
+#box4{
+	background: #a5b62b;
+}
+#box5{
+	background: #524f73;
+}
+#box6{
+	background: #63245e;
+}
+#box7{
+	background: #0c5528;
+}
+#box8{
+	background: #ac97ad;
+}
+#box9{
+	background: #e6da1d;
+}
+#box10{
+	background: #a8ed1d;
+}

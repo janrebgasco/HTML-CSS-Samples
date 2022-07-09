@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Circle Change</title>
+</head>
+<body>
+<h1>CIRCLE CHANGE</h1>
+<div class="circle" id="color1"></div>
+<div class="circle" id="color2"></div>
+<div class="circle" id="color3"></div>
+<div class="circle" id="color4"></div>
+<div class="circle" id="color5"></div>
+<div class="circle" id="color6"></div>
+<br>
+<button id="button1" onclick="change_color()">Change</button> 
+</body>
+</html>
+
+<style type="text/css">
+#button1{
+	position: fixed;
+	top: 300px;
+	left: 20px;
+	height: 30px;
+	width: 70px;
+
+}
+.circle{
+	height: 150px;
+	width: 150px;
+	border-radius: 100px;
+	margin: 10px;
+	border: solid;
+	float: left;
+}
+#color1{
+
+	background: red;
+}
+#color2{
+	background:pink;
+}
+#color3{
+	background:green;
+}
+#color4{
+	background:yellow;
+}
+#color5{
+	background:blue;
+}
+#color6{
+	background:violet;
+}
+</style>
+
+<script type="text/javascript">
+
+var count=0;
+function change_color()
+{	
+	count +=1;
+
+	if(count>=6){
+		count=0;
+	}
+	else{
+
+	}
+	if (count==1) {
+	document.getElementById("color1").style.background = "violet";
+	document.getElementById("color2").style.background = "red";
+	document.getElementById("color3").style.background = "pink";
+	document.getElementById("color4").style.background = "green";
+	document.getElementById("color5").style.background = "yellow";
+	document.getElementById("color6").style.background = "blue";
+	}
+	else if (count==2) {
+	document.getElementById("color1").style.background = "blue";
+	document.getElementById("color2").style.background = "violet";
+	document.getElementById("color3").style.background = "red";
+	document.getElementById("color4").style.background = "pink";
+	document.getElementById("color5").style.background = "green";
+	document.getElementById("color6").style.background = "yellow";
+	}
+	else if (count==3) {
+	document.getElementById("color1").style.background = "yellow";
+	document.getElementById("color2").style.background = "blue";
+	document.getElementById("color3").style.background = "violet";
+	document.getElementById("color4").style.background = "red";
+	document.getElementById("color5").style.background = "pink";
+	document.getElementById("color6").style.background = "green";
+	}
+	else if (count==4) {
+	document.getElementById("color1").style.background = "green";
+	document.getElementById("color2").style.background = "yellow";
+	document.getElementById("color3").style.background = "blue";
+	document.getElementById("color4").style.background = "violet";
+	document.getElementById("color5").style.background = "red";
+	document.getElementById("color6").style.background = "pink";
+	}
+	else if (count==5) {
+	document.getElementById("color1").style.background = "pink";
+	document.getElementById("color2").style.background = "green";
+	document.getElementById("color3").style.background = "yellow";
+	document.getElementById("color4").style.background = "blue";
+	document.getElementById("color5").style.background = "violet";
+	document.getElementById("color6").style.background = "red";
+	}
+	else if(count==0){
+	document.getElementById("color1").style.background = "red";
+	document.getElementById("color2").style.background = "pink";
+	document.getElementById("color3").style.background = "green";
+	document.getElementById("color4").style.background = "yellow";
+	document.getElementById("color5").style.background = "blue";
+	document.getElementById("color6").style.background = "violet";
+	}
+}
+
+</script>
